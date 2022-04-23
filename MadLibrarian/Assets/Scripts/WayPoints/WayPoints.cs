@@ -39,10 +39,10 @@ public class WayPoints : MonoBehaviour
         else
         {
             //loops back the waypoint to the first waypoint 
-            return transform.GetChild(0);
+            //return transform.GetChild(0);
 
             //stays at the very last waypoint
-            //return transform.GetChild(transform.childCount - 1);
+            return transform.GetChild(transform.childCount - 1);
         }
 
 
