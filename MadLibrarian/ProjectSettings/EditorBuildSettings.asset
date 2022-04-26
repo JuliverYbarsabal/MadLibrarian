@@ -9,6 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: d1c3109bdb54ad54c8a2b2838528e640
   - enabled: 1
-    path: Assets/Scenes/Mad Librarian.unity
-    guid: 330ec341c2e8fcf4db7964d8cf7ee186
-  m_configObjects: {}
+    path: Assets/Scenes/JapaneseLibrary.unity
+    guid: 961e2f4ded8afa746893a46fb6e15c43
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 644d15407d3bdef49af52ad82d741c1d,
+      type: 2}
+    Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: b0ba9e1c52748cc47bcfb877a71877ac,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: c0e72836902fbbf4daa2e37f1de00ab1,
+      type: 2}
